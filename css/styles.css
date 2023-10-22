@@ -598,7 +598,8 @@ img {
     width: 264px;
     height: 40px;
     border-radius: 4px;
-    border: 1px solid #FFF;
+    border: none;
+    outline: 1px solid #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background-color: transparent;
     padding: 0 16px;
@@ -615,8 +616,6 @@ img {
 
 .footer-form-btn {
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 165px;
     height: 40px;
     color:  #FFF;
@@ -632,6 +631,9 @@ img {
     fill: #FFFFFF;
 }
 
+.footer-btn-icon {
+    margin-left: 16px;
+}
 
 /*========================*/
 
